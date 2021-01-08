@@ -1,0 +1,116 @@
+/*
+ Theme Name:   Twenty-Fifteen-Cantarell
+ Theme URI:    https://github.com/jsparber/Twenty-Fifteen-Cantarell
+ Description:  Twenty Fifteen Child Theme with Cantarell font
+ Author:       Julian Sparber
+ Author URI:   https://juliansparber.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyfifteenlocal-cantarell
+*/
+
+/* FONTS */
+@font-face {
+  font-family: "Cantarell";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Cantarell Extra Bold"), local("Cantarell-ExtraBold"), url(fonts/cantarell-extra-bold-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+}
+@font-face {
+  font-family: "Cantarell";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Cantarell Bold"), local("Cantarell-Bold"), url(fonts/cantarell-bold-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+}
+@font-face {
+  font-family: "Cantarell";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cantarell Regular"), local("Cantarell-Regular"), url(fonts/cantarell-regular-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+}
+
+.form-allowed-tags code,
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+	/* Original font-family: Inconsolata, monospace; */
+	font-family: monospace;
+}
+
+::-webkit-input-placeholder {
+	/* Original font-family: "Noto Sans", sans-serif; */
+	font-family: "Cantarell", sans-serif;
+}
+
+:-moz-placeholder {
+	/* Original font-family: "Noto Sans", sans-serif; */
+	font-family: "Cantarell", sans-serif;
+}
+
+::-moz-placeholder {
+	/* Original font-family: "Noto Sans", sans-serif; */
+	font-family: "Cantarell", sans-serif;
+}
+
+:-ms-input-placeholder {
+	/* Original font-family: "Noto Sans", sans-serif; */
+	font-family: "Cantarell", sans-serif;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.widecolumn label,
+.widecolumn .mu_register label,
+.gallery-caption,
+.wp-caption-text,
+.no-comments,
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.form-allowed-tags,
+.comment-form label,
+.comment-list .reply a,
+.comment-metadata,
+.pingback .edit-link,
+.entry-caption,
+.page-links,
+.entry-footer,
+.author-heading,
+.widget_rss .rss-date,
+.widget_rss cite,
+.site-description,
+.site-title,
+.image-navigation,
+.comment-navigation,
+.pagination,
+.post-navigation .meta-nav,
+.main-navigation .menu-item-description,
+.post-password-form label {
+	/* Original font-family: "Noto Sans", sans-serif; */
+	font-family: "Cantarell", sans-serif;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+.comments-title,
+.comment-reply-title,
+.page-title,
+.widget_calendar caption,
+.post-navigation .post-title {
+	/* Original font-family: "Noto Serif", serif; */
+	font-family: "Cantarell", sans-serif;
+}
