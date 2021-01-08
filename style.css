@@ -5,7 +5,7 @@
  Author:       Julian Sparber
  Author URI:   https://juliansparber.com
  Template:     twentyfifteen
- Version:      1.0.0
+ Version:      1.0.1
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -33,6 +33,11 @@
   font-weight: 400;
   src: local("Cantarell Regular"), local("Cantarell-Regular"), url(fonts/cantarell-regular-latin.woff2) format("woff2");
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+}
+
+b, strong {
+  font-weight: 600;
+
 }
 
 .form-allowed-tags code,
