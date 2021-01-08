@@ -115,3 +115,8 @@ textarea,
 	/* Original font-family: "Noto Serif", serif; */
 	font-family: "Cantarell", sans-serif;
 }
+
+.logged-in .site .skip-link {
+  /* Original font: bold 14px/normal "Open Sans", sans-serif */
+	font-family: "Cantarell", sans-serif;
+}
